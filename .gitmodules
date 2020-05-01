@@ -1,0 +1,3 @@
+[submodule "dataStructure"]
+	path = dataStructure
+	url = https://github.com/naxienianHaiF/dataStructure.git
