@@ -7,17 +7,17 @@ package com.wjh.learn.template;
  */
 public class Basketball extends AbstractGame {
     @Override
-    void initGame() {
+    public void initGame() {
         System.out.println("开始检查篮球场...");
     }
 
     @Override
-    void startGame() {
+    public void startGame() {
         System.out.println("篮球比赛开始...");
     }
 
     @Override
-    void endGame() {
+    public void endGame() {
         try {
             Thread.sleep(500);
         } catch (InterruptedException e) {

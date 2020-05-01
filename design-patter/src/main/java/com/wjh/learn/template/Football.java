@@ -7,17 +7,17 @@ package com.wjh.learn.template;
  */
 public class Football extends AbstractGame {
     @Override
-    void initGame() {
+    public void initGame() {
         System.out.println("布置足球场地...");
     }
 
     @Override
-    void startGame() {
+    public void startGame() {
         System.out.println("开始踢足球比赛...");
     }
 
     @Override
-    void endGame() {
+    public void endGame() {
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
