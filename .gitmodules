@@ -1,3 +1,7 @@
 [submodule "dataStructure"]
 	path = dataStructure
 	url = https://github.com/naxienianHaiF/dataStructure.git
+[submodule "concurrent"]
+	path = concurrent
+	url = https://github.com/naxienianHaiF/concurrent.git
+	branch = master
